@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+        position: relative;
+        
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        gap: 46px;
+    }
+    header{
+        padding: 4px;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    img{
+        height: 50px;
+        width: 90px;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-left: -800px;
+    }
+    section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .left{
+        width: 40%;
+    }
+    .right{
+        width: 60%;
+    }
+    .right-image{
+        height: 100%;
+        width: 100%;
+    }
+    span{
+        color: rgb(119, 119, 237);
+    }
+    h1{
+        font-size: 68px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 18px;
+        margin-bottom: 56px;
+    }
+    .button-1 {
+        background-color: rgb(65, 73, 184);
+        height: 39px;
+        width: 120px;
+        padding: 6px;
+        border-radius: 9px;
+        color: white;
+        font-weight: 600;
+    }
+    .button-2{
+        background-color: rgb(65, 73, 184);
+        height: 39px;
+        width: 150px;
+        padding: 6px;
+        border-radius: 9px;
+        color: white;
+        font-weight: 600;
+    }
+</style>
+<body>
+   
+     <header> 
+        <nav>
+            <img src="Logo.png" alt="">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Portfoilo</li>
+                <li>Pricing</li>
+            </ul>
+            <button class="button-1">Contact Us</button>
+        </nav>
+     </header>
+
+    <section>
+        <div class="left">
+        <h1>
+            We Help You <span>Crush</span> Your Competition
+        </h1>
+        <p>
+            Build trust to connect your brand to bilions of users and grow your revenue through SEO
+
+        </p>
+        <button class="button-2">See our Services</button>
+        </div>
+        <div class="right">
+            <img class="right-image" src="back .png" alt="image">
+        </div>
+    </section>    
+   
+</body>
+</html>
