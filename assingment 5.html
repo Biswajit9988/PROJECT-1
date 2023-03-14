@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+       
+    }
+    body{
+        background-color: black;
+        height: 100vh;
+        width: 100vw;
+    }
+    header{
+        margin: 2px;
+    } 
+    ul{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: right;
+    }
+    li{
+        color: white;
+        list-style: none;
+    }
+    li:hover{
+        background-color: blue;
+        padding: 1px 8px;
+        border-radius: 6px;
+        font-weight: 900;
+    }
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    img[alt="hello"]{
+        height: 20px;
+    }
+    h3{
+        color: white;
+        font-size: 14px;
+    }
+    img[alt="pc-image"]{
+        height: 300px;
+        
+    }
+    .line-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    h1{
+        color: white;
+        font-size: 22px;
+    }
+    h2{
+        color: yellow;
+        font-size: 12px;
+    }
+    .line-2{
+        margin-left: 56px;
+    }
+    
+    .dash-1{
+        width: 56px;
+        height: 3px;
+        background-color: blue;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+    h4{
+        color: white;
+        font-size: 18px;
+    }
+    img{
+        height: 150px;
+        margin: 4px;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    p{
+        color: white;
+        font-size: 10px;
+    }
+    .project-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .project-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .project-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .project-4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .dash-2{
+        width: 76px;
+        height: 3px;
+        background-color: blue;
+    }
+    .last{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8px;
+    }
+    
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    img[alt="image-footer"]{
+        height: 18px;
+    }
+
+    @media screen and (max-width:576px) {
+        ul{
+            display: none;
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+
+        }
+        .line-1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+        img[alt="pc-image"]{
+            width: 140px;
+            height: 200px;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+</style>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="home-option">Home</li>
+                <li>Projects</li>
+                <li>Technologies</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header> 
+        <section >
+            <div class="left">
+                <div class="line-1">
+                    <img src="assets/waving-hand.png" alt="hello">
+                    <h3>Hi Everyone</h3>
+                </div>
+                <div class="line-2">
+                    <h1>
+                        Mark Anderson
+                    </h1>
+                    <h2>
+                        Developer
+                    </h2>
+                </div>
+            </div>
+            <div class="right">
+                <img src="assets/pc-image.png" alt="pc-image">
+            </div>
+        </section>
+    <main>
+        <div class="top">
+        <h4>Projects</h4>
+        <div class="dash-1"></div>
+        </div>
+        <div class="container">
+            <div class="left">
+            <div class="project-1">
+                <img src="assets/image.png" alt="image-1">
+                <p>Project 1</p>
+            </div>
+            <div class="project-3">
+                <img src="assets/image.png" alt="image-1">
+                <p>Project 3</p>
+            </div> 
+        </div> 
+        <div class="right">
+            <div class="project-2">
+                <img src="assets/image.png" alt="image-1">
+                <p>Project 2</p>
+            </div>  
+            <div class="project-4">
+                <img src="assets/image.png" alt="image-1">
+                <p>Project 4</p>
+            </div>
+            </div>  
+        </div>
+        <div class="last">
+        <h4>Contact Me</h4>
+        <div class="dash-2"></div>
+        </div>
+    </main> 
+    <footer>
+        <img src="assets/github.png" alt="image-footer">
+        <img src="assets/linkedin.png" alt="image-footer">
+        <img src="assets/outlook.png" alt="image-footer">
+    </footer>
+</body>
+</html>
