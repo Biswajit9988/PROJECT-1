@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgb(24, 14, 14), black, rgb(15, 15, 15));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.top-bar{
+  width: 100px;
+  background-color: #121212;
+  height: 20px;
+  position: absolute;
+  top: 58px;
+  left: 650px;
+  margin: 0 6px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+#clock{
+  position: absolute;
+  top: 58px;
+  left: 560px;
+  color: #fff;
+}
+span{
+  position: absolute;
+  top: 58px;
+  left: 580px;
+  color: #fff;
+}
+#min{
+  position: absolute;
+  top: 58px;
+  left: 590px;
+  color: #ece9e9;
+}
+.cam {
+  width: 16px;
+  height: 16px;
+  background-image: repeating-radial-gradient(
+    rgb(4, 0, 0) 10%,
+    rgb(25, 25, 27) 40%,
+    rgb(9, 3, 35)
+  );
+  border-radius: 20px;
+  margin-left: 4px;
+}
+.top-right-side{
+  display: flex;
+  position: absolute;
+  top: 58px;
+  right: 580px;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.container {
+  background-color: black;
+  height: 90vh;
+  width: 26vw;
+  border-radius: 55px;
+  border: 4px solid rgb(105, 105, 105);
+  
+}
+input {
+  height: 6.5vh;
+  width: 24vw;
+  background: #000;
+  color: white;
+  border: #000;
+  font-size: 60px;
+  margin-bottom: 12px;
+  position: absolute;
+  bottom: 480px;
+  left: 547px;
+  padding: 0 24px;
+  text-align: right;
+}
+.box {
+  position: absolute;
+  bottom: 80px;
+  left: 560px;
+}
+.btn {
+  height: 70px;
+  width: 70px;
+  margin: 4px;
+  border-radius: 35px;
+  background-color: rgb(62, 60, 60);
+  border: #000;
+  font-size: 35px;
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+}
+.top-btn {
+  background-color: #9d9898;
+  color: #000;
+}
+.right-btn {
+  background-color: orange;
+}
+.zero-btn {
+  width: 152px;
+}
+.dash {
+  height: 3px;
+  width: 135px;
+  background: white;
+  position: absolute;
+  bottom: 54px;
+  border-radius: 6px;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+  font-weight: bolder;
+  transform: scale(0.8);
+}
+
+.top-bar:hover{
+  width:  130px;
+  background-image: linear-gradient(rgb(46, 44, 44), rgb(29, 4, 53));
+}
