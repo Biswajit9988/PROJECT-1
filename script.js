@@ -68,8 +68,3 @@ setInterval(() => {
   clock.innerText = time;
   minitues.innerText = min;
 }, 1000);
-// let battery = document.getElementById("bty")
-// battery.addEventListener('click',()=>{
-//     console.log('click me')
-
-// })
